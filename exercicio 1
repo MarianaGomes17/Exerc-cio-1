@@ -1,0 +1,27 @@
+package Mariana.Main.model.sample;
+
+public class Produto {
+    private String Nome;
+    private double Preco;
+
+    public String getNome() {
+        return Nome;
+    }
+
+    public void setNome(String nome) {
+        Nome = nome;
+    }
+
+    public double getPreco() {
+        return Preco;
+    }
+
+    public void setPreco(double preco) {
+        Preco = preco;
+    }
+    
+    @Override
+    public String toString(){
+        return  "Produto: " + Nome + ", Valor: " + Preco;
+    }
+}
